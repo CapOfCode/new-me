@@ -1,0 +1,145 @@
+/* Universal Desing */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0 150px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;;
+}
+/* This is head section */
+
+
+header{
+    background-image: url('images/banner/banner2.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.head-container{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner-content{
+    width: 500px;
+    text-align: right;
+    
+
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+
+.unknown-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 150px;
+    gap: 100px;
+}
+
+.unknown-container img{
+    height: 550px;
+    width: 450px;
+}
+
+
+.unknown-container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.unknown-container p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 25px 0;
+    line-height: 25px;
+}
+
+.unknown-container li{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.fa-check{
+    color: #16D887;
+    margin-right: 10px;
+
+}
+
+
+/* My Plans section */
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.watch-card{
+    background-image: url('images/gradient2.png'),url("images/watch.png");
+    margin: 120px 0;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.watch-card h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.watch-card button{
+    color: #F15B22;
+    background-color: white;
+    padding:20px 35px;
+    margin-top: 20px;
+}
+
+.mindset-content{
+    padding: 70px;
+}
+
